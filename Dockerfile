@@ -8,4 +8,5 @@ RUN rm -rf ./work
 RUN mkdir data
 COPY --chown=1000:100 data/netflix_titles.csv data
 COPY --chown=1000:100 data/covid_19_data.csv data
+COPY --chown=1000:100 data/CreditCardData.csv data
 COPY --chown=1000:100 ./Challenge.ipynb .
